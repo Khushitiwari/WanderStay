@@ -70,6 +70,7 @@ npm install
 
 \`\`\`
 WanderStay/
+
 ├── controllers/      # Business logic handlers
 ├── models/           # Data models (e.g., listings, users)
 ├── routes/           # Express routes
