@@ -72,17 +72,29 @@ npm install
 WanderStay/
 
 ├── controllers/      # Business logic handlers
+
 ├── models/           # Data models (e.g., listings, users)
+
 ├── routes/           # Express routes
+
 ├── views/            # EJS templates for UI rendering
+
 ├── public/           # Static assets (CSS, images, JS)
+
 ├── utils/            # Shared utility functions
+
 ├── middleware.js     # Custom middleware (e.g., auth checks)
+
 ├── cloudConfig.js    # Configuration for cloud services (e.g., AWS, DB, etc.)
+
 ├── schema.js         # Database schema definitions
+
 ├── app.js            # Main server setup & startup
+
 ├── package.json
+
 ├── package-lock.json
+
 └── .gitignore
 \`\`\`
 
