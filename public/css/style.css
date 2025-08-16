@@ -1,0 +1,146 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container{
+   flex: 1;
+}
+.navbar{
+    height: 5rem;
+    background-color: white;
+}
+
+.fa-compass{
+    color: rgb(201, 7, 104);
+    font-size: 2rem;
+
+}
+
+.nav-link{
+    font-size: 1.2rem !important;
+    color: rgb(20, 19, 19) !important;
+}
+
+/* Footer */
+
+.f-info-links a{
+    text-decoration:none;
+    color: rgb(6, 6, 6);
+
+}
+
+.f-info-links a:hover{
+    text-decoration: underline;
+    color: rgb(201, 7, 104);
+}
+
+.f-info-links{
+    width:100%;
+}
+
+.f-info-links ,
+.f-info-socials, .f-info-brand{
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.f-info-socials{
+    width: 100%;
+    font-size: 1.2rem;
+    
+}
+
+.f-info-socials i{
+    margin-right: 2rem;
+}
+
+.f-info-socials i:hover{
+    color: rgb(201, 7, 104);
+}
+
+.f-info{
+    display: flex;
+    text-align: center;;
+    height: 8rem;
+    background-color: rgb(223, 222, 222);
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-between;
+}
+
+/* cards */
+.listing-card{
+    border: none !important;
+    margin-bottom:2rem  !important;
+    /* margin-left:1.2rem  !important; */
+    /* text-align: center !important; */
+   
+}
+
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body{
+    padding: 0 !important;
+}
+
+.card-text p{
+    font-weight: 400;
+}
+
+.listing-link{
+    text-decoration: none;
+    
+}
+
+/* card-effect */
+
+.card-img-overlay{
+    opacity: 0;
+
+}
+
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+
+
+/* new-page */
+.add-btn{
+     background-color: rgb(201, 7, 104) !important;
+     border: none !important;
+     margin-bottom: 2rem;
+}
+
+/* edit page */
+
+.edit-btn{
+     background-color: rgb(201, 7, 104) !important;
+     border: none !important;
+     margin-bottom: 2rem;
+}
+
+/* show page */
+
+.show-img{
+    height: 30vh;
+}
+
+.btns{
+    display: flex;
+
+}
+
+.show-card{
+    padding-left: 0;
+    padding-right: 0;
+}
