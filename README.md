@@ -2,7 +2,7 @@
 
 WanderStay is a modern, responsive web platform that connects travelers with unique accommodations. Users can **add their own listings** or **browse stays** posted by others—with options ranging from beachfront bungalows to treehouse getaways.
 
-The site features a clean, intuitive interface, showcasing trending stays with transparent pricing (including GST), and supports user authentication (sign‑up, login). ([wanderstay-1-0w1j.onrender.com](https://wanderstay-1-0w1j.onrender.com/listings)
+The site features a clean, intuitive interface, showcasing trending stays with transparent pricing (including GST), and supports user authentication (sign‑up, login).
 
 ---
 
