@@ -2,7 +2,8 @@ const mongoose = require("mongoose");
 const initData = require("./data.js");
 const Listing = require("../models/listing.js");
 
-const mongoUrl = "mongodb://127.0.0.1:27017/WanderStay";
+require('dotenv').config();
+const mongoUrl = process.env.ATLASDB_URL;
 
 main()
   .then(() => {
