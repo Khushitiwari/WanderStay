@@ -58,17 +58,17 @@ Check out the live demo here: [WanderStay Listings Page](https://wanderstay-1-0w
 
 **Installation Steps**
 
-\`\`\`bash
+```bash
 git clone https://github.com/Khushitiwari/WanderStay.git
 cd WanderStay
 npm install
-\`\`\`
+```
 
 ---
 
 ## Project Structure
 
-\`\`\`
+```
 WanderStay/
 
 ├── controllers/      # Business logic handlers
@@ -96,7 +96,7 @@ WanderStay/
 ├── package-lock.json
 
 └── .gitignore
-\`\`\`
+```
 
 ---
 
@@ -115,15 +115,15 @@ WanderStay/
 
 1. Start your development server:
 
-    \`\`\`bash
+    ```bash
     npm start
-    \`\`\`
+    ```
 
 2. Open your browser and navigate to:
 
-    \`\`\`
+    ```
     http://localhost:3000/listings
-    \`\`\`
+    ```
 
 3. Explore trending listings, sign up or log in, and add a new accommodation.
 
