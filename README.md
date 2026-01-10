@@ -21,9 +21,10 @@ The site features a clean, intuitive interface, showcasing trending stays with t
 
 ---
 
-## Demo
+## Demo Video
+https://github.com/user-attachments/assets/b122207d-a630-42e2-9cde-5b8423e90816
 
-Check out the live demo here: [WanderStay Listings Page](https://wanderstay-1-0w1j.onrender.com/listings)
+
 
 ---
 
