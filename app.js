@@ -17,6 +17,7 @@ const ejsMate = require("ejs-mate");
 
 //const mongoUrl = "mongodb://127.0.0.1:27017/WanderStay";
 const dbUrl = process.env.ATLASDB_URL ;
+const PORT = process.env.PORT || 8080;
 const listingRouter = require("./routes/listings.js");
 const reviewRouter = require("./routes/reviews.js");
 const flash = require("connect-flash"); // requiring connect-flash for flash messages
@@ -149,9 +150,9 @@ app.use((err,req,res, next)=> {
 
 });
 
-app.listen(8080, () => {
-  console.log("server is listening at 8080");
+app.listen(PORT, () => {
+  console.log(`server is listening at ${PORT}`);
 });
 
 
-//ATLASDB_URL=mongodb+srv://240140107071:TkGOevveuFLQlllA@cluster0.7whdwp5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
